@@ -10,7 +10,7 @@ xspd = (right_key - left_key) * move_spd;
 yspd = (down_key - up_key) * move_spd;
 
 
-//Collision
+//Collision of wall
 if place_meeting(x + xspd, y, Obj_Wall) == true
 	{
 		xspd = 0;
