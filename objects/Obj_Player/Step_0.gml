@@ -26,3 +26,8 @@ if place_meeting(x, y + yspd, Obj_Wall) == true
 x += xspd;
 y += yspd;
 
+//Move room
+if (score = 10)
+	{
+		room_goto(Room2)
+	}
